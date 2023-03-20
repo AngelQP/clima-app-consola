@@ -99,6 +99,7 @@ const listarLugares = async (lugares = []) => {
   ]
 
   const {id} = await inquirer.prompt(preguntas);
+  // console.log({id});
 
   return id;
 
